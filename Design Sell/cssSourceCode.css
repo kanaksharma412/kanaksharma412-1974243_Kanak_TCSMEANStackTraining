@@ -1,0 +1,51 @@
+.divClass{
+    padding: 25px;
+    border: solid black 2px;
+    height: 180px;
+    float:left;
+    margin:5px;
+    border-radius: 50%;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.paragraph{
+    font-size: 25px;
+    font-family: fantasy;
+    color: brown;
+    background-color: chocolate;
+}
+
+
+.heading{
+    font-style: italic;
+    color: cornflowerblue;
+    background-color:cyan;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    animation-name: myanimation;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+}
+
+.button1{
+    border: darkblue;
+    color:rebeccapurple;
+    padding: 12px 30px;
+    text-align: center;
+    text-decoration: coral;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+}
+
+@keyframes myanimation{
+    0% {margin-left:10%;}
+    25%{margin-left: 20%;}
+    60%{margin-left:30%;}
+    80%{margin-left: 40%;}
+    100%{margin-left:50%;}
+}
