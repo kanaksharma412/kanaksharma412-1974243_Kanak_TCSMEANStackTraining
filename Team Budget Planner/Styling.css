@@ -1,0 +1,41 @@
+table, th, td{
+    border: 1px solid black;
+}
+
+
+.content {
+    max-width: 500px;
+    margin:auto;
+}
+
+
+.form {
+    color: red;
+}
+
+.input {
+    border: 2px solid red;
+
+}
+
+.button {
+    color: royalblue;
+    background-color: white;
+    border: none;
+}
+
+.heading {
+    text-align: center;
+    color:blue;
+    text-decoration: underline;
+}
+
+a {
+  color: blue;
+
+}
+
+.sameline {
+    display: inline;
+    word-wrap: break-word;
+}
