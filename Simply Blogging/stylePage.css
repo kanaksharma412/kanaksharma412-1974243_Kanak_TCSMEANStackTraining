@@ -1,0 +1,42 @@
+.wrapper {
+            
+    display: grid;
+    grid-template-columns: 500px 500px 500px;
+    justify-content: center;
+
+    
+}
+.divChild {
+    border-radius: 25px;
+    width: 75%;
+    padding: 20px;
+    margin: 20px;
+    word-wrap: break-word;
+    background: url(background.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+    opacity:0.6;
+    text-align: center;
+}
+
+.divChild:hover {
+    opacity: 1.0;
+}
+
+.element {
+    font-weight: bold;
+    color: black;
+    opacity: 1.0;
+}
+
+
+
+body {
+   background: url(header.jpg) no-repeat center center fixed;
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+}
