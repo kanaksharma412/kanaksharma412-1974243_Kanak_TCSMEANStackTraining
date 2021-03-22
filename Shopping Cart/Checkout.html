@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="checkout.js"></script>
+    <style>
+        .sameline{
+            float: left;
+            text-align: center;
+        }
+
+        table, th, td{
+            border: 1px solid black;
+        }
+
+        .contain{
+            width: 200px;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center;color: blue;">Shopping Cart Checkout</h1>
+    <table id="checkout" style="margin-left: auto;margin-right: auto;">
+        <thead>
+            <tr>
+                <th>Item Name</th>
+                <th>Quantity</th>
+                <th>Price($)</th>
+            </tr>
+        </thead>
+        <tbody>
+
+        </tbody>
+    </table>
+ <div class="contain">
+    <p class="sameline"> The total is $</p>
+    <p class="sameline" id="total"></p>
+ </div>
+</body>
+</html>
