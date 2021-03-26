@@ -1,0 +1,26 @@
+<div class="container">
+    <h2>My Portfolio</h2>
+    <h5 style="float: left;"> Welcome {{userName}} </h5>
+    <input type="button" value="Log Out" (click)="logout()" class="btn btn-light" style="float:right"><br/><br/>
+    <form class="form">
+        <pre>
+        <label>Contact Name</label> <input type="text" id="contact"><br/>
+        <label>Phone No.</label>    <input type="text" id="number"><br/>
+                   <input type="button" value="Save" (click)="addInfo()" class="btn btn-primary"></pre><br/>
+    </form>
+    <h3>Contact Details</h3>
+    <table id="contacts">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone No.</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let contact of contacts">
+                <td>{{contact.name}}</td>
+                <td>{{contact.number}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>

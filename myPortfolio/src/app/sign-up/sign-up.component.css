@@ -1,0 +1,15 @@
+.form{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+    color: blue;
+}
+
+.container{
+    max-width: 750px;
+    margin: auto;
+    text-align: center;
+    
+}
