@@ -1,0 +1,31 @@
+<div class="container">
+<h5 style="text-align: center;">{{currentQuestion+1}}/10</h5>
+<countdown style="float: left;color: blue;" [config]="{leftTime: 600}"></countdown>
+<button class="btn btn-lg btn-outline-primary" id="clickMe" [disabled]="isDisabled" (click)="open(content);submit();loadAnswers()" style="float: right;">Submit</button><br/><br/>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 offset-2">
+            <h1>{{test[currentQuestion].question}}</h1>
+            <ul class="list-group" *ngFor="let option of test[currentQuestion].options">
+                <li class="list-group-item">
+                    <input type="radio" name="options" (click)="onAnswer(option)">{{option.option}}</li>
+            </ul>
+        </div>
+    </div><br/>
+    <input type="button" class="btn btn-secondary" value="Next" [disabled]="nextQues" (click)="next()" style="float: right;">
+    <input type="button" class="btn btn-secondary" value="prev" [disabled]="prevQues" (click)="previous()">
+</div>
+</div>
+<ng-template #content let-c="close" let-d="dismiss">
+    <div class="modal-header">
+      <h4 class="modal-title" id="modal-basic-title">Score:{{currentScore}}/10</h4>
+      <button type="button" class="close" aria-label="Close" (click)="d('Cross click'); resetScore(); goToExit()">
+        <span aria-hidden="true">&times;</span>
+      </button>
+    </div>
+    <div class="modal-body" id="addStuff">
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-outline-dark" (click)="c('Save click'); resetScore(); goToExit()">Close</button>
+    </div>
+  </ng-template>

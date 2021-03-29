@@ -1,0 +1,42 @@
+[
+    {
+       "question":" Julian Assange founded WikiLeaks in 2006. He is _____ by nationality.",
+       "options": [{"option":"Australian","value":true},{"option":"British","value":false},{"option":"Russian","value":false}] 
+    },
+    {
+        "question":" A narrow arm of the Atlantic ocean that separates United Kingdom from France is called",
+        "options": [{"option":"English Channel","value":true},{"option":"Dover Strait","value":false},{"option":"Luzon Strait","value":false}] 
+     },
+    {
+      "question":"There are _____ states in the United States.",
+      "options": [{"option":"40","value":false},{"option":"45","value":false},{"option":"50","value":true}] 
+    },
+   {
+       "question":"We live on the planet Earth. According to the scientists, the Earth was formed about _____ years ago.",
+       "options": [{"option":"4.6 million","value":true},{"option":"5.6 million","value":false},{"option":"4.6 billion","value":false}] 
+    },
+    {
+      "question":"Dinosaurs and many other species were extinct about _____ years ago.",
+      "options": [{"option":"55 million","value":false},{"option":"65 million","value":true},{"option":"75 million","value":false}] 
+   },
+   {
+       "question":"The deepest hole in the Earth, ‘Kola Superdeep Borehole’ on Russia’s Kola Peninsula, is about _____ feet deep.",
+       "options": [{"option":"10,000","value":false},{"option":"20,000","value":false},{"option":"40,000","value":true}] 
+    },
+   {
+     "question":"Which country is building “Mars Science City” to develop technology to colonize Mars?",
+     "options": [{"option":"China","value":false},{"option":"Qatar","value":false},{"option":"UAE","value":true}] 
+   },
+  {
+      "question":"The stock of “Amonium Nitrate” which was resulted in large explosion in Lebanon is a _____ chemical compound.",
+      "options": [{"option":"solid","value":true},{"option":"liquid","value":false},{"option":"gaseous","value":false}] 
+   },
+   {
+      "question":"There are 7 continents in the world. The total area of these 7 continents is about",
+      "options": [{"option":"118 million kilometer square","value":false},{"option":"128 million kilometer square","value":false},{"option":"148 million kilometer square","value":true}] 
+    },
+   {
+       "question":"The Pico Island is located in",
+       "options": [{"option":"Switzerland","value":false},{"option":"Portugal","value":true},{"option":"Turkey","value":false}] 
+    }
+]
