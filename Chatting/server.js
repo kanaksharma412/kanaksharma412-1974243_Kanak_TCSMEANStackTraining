@@ -10,7 +10,7 @@ io.on("connection",(socket)=>{
     console.log("Client connected to application");
 
     socket.on("name",(name)=>{
-        console.log(name);
+        console.log("Hello "+name);
     })
 
     socket.on("message",(msg)=>{
